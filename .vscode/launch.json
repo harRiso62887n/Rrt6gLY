@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+
+  "configurations": [
+    {
+      "type": "dart",
+      "name": "[math-runtime] tests",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/math-runtime/test/test.dart",
+      "console": "terminal"
+    },
+    {
+      "type": "dart",
+      "name": "[smpl] tests",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/smpl/test/test.dart",
+      "console": "terminal"
+    },
+    {
+      "type": "dart",
+      "name": "[compiler] tests",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/compiler/test/test.dart",
+      "console": "terminal"
+    },
+    {
+      "type": "dart",
+      "name": "[chat] interactive test",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/chat/test/test.dart",
+      "console": "terminal"
+    },
+    {
+      "type": "python",
+      "name": "[python] current file",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
